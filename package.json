@@ -1,0 +1,28 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "crash course ",
+  "homepage": "https://github.com/hydrochlo/intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/hydrochlo/intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hydrochlo/intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "Shahadat",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1",
+    "nodemon": "^3.1.14"
+  }
+}
